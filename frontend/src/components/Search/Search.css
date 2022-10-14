@@ -1,0 +1,42 @@
+.search {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.search__container {
+  padding: 0 20px;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border: 2px solid #d4d4d4;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.search__input {
+  padding: 0;
+  background-color: transparent;
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+
+.search__button {
+  cursor: pointer;
+  padding: 0;
+  background-image: url("../../images/search-svgrepo-com.svg");
+  background-color: transparent;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  border-style: none;
+  background-repeat: no-repeat;
+  transition: .3s linear;
+}
+
+.search__button:hover {
+  opacity: .6;
+}

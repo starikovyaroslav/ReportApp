@@ -1,0 +1,16 @@
+.app {
+  min-width: 320px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #FAFAFA;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 80px 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    box-sizing: initial;
+  }
+}

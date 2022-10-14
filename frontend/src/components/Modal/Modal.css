@@ -1,0 +1,80 @@
+.modal {
+  padding: 100px 0 0 0;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgb(137 165 255 / 56%);
+  align-items: center;
+  justify-content: flex-start;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s linear;
+}
+
+.opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__close-button {
+  position: relative;
+  top: 2%;
+  cursor: pointer;
+  background-image: url("../../images/cross.svg");
+  background-color: #bf00bf;
+  width: 36px;
+  height: 36px;
+  background-size: 20px;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  transition: .3s linear;
+}
+
+.modal__close-button:hover {
+  opacity: .8;
+}
+
+.modal__container {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+.modal__info {
+  display: flex;
+  gap: 50px;
+}
+
+.modal__subtitle {
+  font-weight: 500;
+}
+
+.modal__text {
+  color: #a4a2a2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrap {
+  margin: 0 0 20px;
+  overflow: visible;
+  white-space: normal;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hidden {
+  overflow: hidden;
+}

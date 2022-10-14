@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" version="1.1" xml:space="preserve">
+ <style type="text/css">
+  <![CDATA[
+	.st0{display:inline;}
+	.st1{fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{display:none;}
+]]>
+ </style>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g class="st2" id="cross">
+   <g class="st0" id="svg_1">
+    <line class="st1" id="svg_2" x1="112.5" x2="401" y1="112.5" y2="401"/>
+    <line class="st1" id="svg_3" x1="401" x2="112.5" y1="112.5" y2="401"/>
+   </g>
+  </g>
+  <g id="cross_copy">
+   <path d="m268.06,256.75l138.6,-138.59c3.12,-3.13 3.12,-8.19 0,-11.32c-3.13,-3.12 -8.19,-3.12 -11.32,0l-138.59,138.6l-138.59,-138.6c-3.13,-3.12 -8.19,-3.12 -11.32,0c-3.12,3.13 -3.12,8.19 0,11.32l138.6,138.59l-138.6,138.59c-3.12,3.13 -3.12,8.19 0,11.32c1.57,1.56 3.61,2.34 5.66,2.34s4.1,-0.78 5.66,-2.34l138.59,-138.6l138.59,138.6c1.57,1.56 3.61,2.34 5.66,2.34s4.09,-0.78 5.66,-2.34c3.12,-3.13 3.12,-8.19 0,-11.32l-138.6,-138.59z" fill="#ffffff" id="svg_4"/>
+  </g>
+ </g>
+</svg>
